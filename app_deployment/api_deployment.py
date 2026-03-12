@@ -9,7 +9,7 @@ def deployed_function1():
 # Basic GET endpoint
 @api_code_deployment.get("/ping")
 def ping():
-    return {"message": "pong"}
+    return {"message": "Hello Jai Shree Ram! This is a simple GET endpoint."}
 
 # Health check endpoint
 @api_code_deployment.get("/health")
