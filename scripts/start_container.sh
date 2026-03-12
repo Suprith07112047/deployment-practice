@@ -1,6 +1,12 @@
 #!/bin/bash
 set -e
 
+# Ensure Docker service is running
+#sudo systemctl start docker
+
+# Optional: wait a moment for Docker to be ready
+#sleep 5
+
 # pull the docker image from docker hub
 docker pull suprithreddy789/deployment-practice:latest
 
